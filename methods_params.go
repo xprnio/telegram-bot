@@ -682,7 +682,7 @@ type SetChatMenuButtonParams struct {
 }
 
 type GetChatMenuButtonParams struct {
-	ChatID any `json:"chat_id"`
+	ChatID any `json:"chat_id,omitempty"`
 }
 
 type SetMyDefaultAdministratorRightsParams struct {
